@@ -4,12 +4,17 @@
   <head>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type="text/javascript">
+    
+    /*
+  	 * Data taken from https://data.cityofnewyork.us/Business/Legally-Operating-Businesses/w7w3-xahh
+  	 * Chart taken from https://developers.google.com/chart/interactive/docs/gallery/columnchart#Configuration_Options
+  	 */
       google.load("visualization", "1.1", {packages:["bar"]});
       google.setOnLoadCallback(drawChart);
       function drawChart() {
-        var data = google.visualization.arrayToDataTable([
-          ['Industry', 'Number'],
-    ["Amusement Device Permanent",121],
+		var data = google.visualization.arrayToDataTable([
+  ['Industry', 'Number'],
+  ["Amusement Device Permanent",121],
   ["Amusement Device Portable",514],
   ["Amusement Device Temporary",6],
   ["Auction House Premises",34],
@@ -62,7 +67,7 @@
   ["Tow Truck Driver",2466],
   ["Tow Truck Exemption",56]
         ]);
-
+        
         var options = {
           chart: {
             title: 'NYC Legally Operated Businesses',
