@@ -1,0 +1,10 @@
+.border {
+	border: 1px solid navy;
+	background-color: linen;
+	margin-left: 20px;
+}
+
+#columnchart_material {
+	border: solid 1px teal;
+	
+}
