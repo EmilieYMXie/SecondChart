@@ -61,8 +61,24 @@
   ["Tow Truck Exemption",56]
         ])
         
-	
+       
+	//var arraysData = [];
+	//use a for loop to make an array of arrays out of relevant JSON data
 
+	//for (var i = 0; i < data; i++) {
+
+	//var itemArray = [];
+
+	//annotations
+
+	//if(data[i]) == "Home Improvement Salesperson"){
+
+	//itemArray.push("In the year "+myYear+"home prices dropped 8%.");
+	//}else{
+	//itemArray.push("");
+	//}
+
+	
 	var options = {
 		chart : {
 			title : 'NYC Legally Operated Businesses',
