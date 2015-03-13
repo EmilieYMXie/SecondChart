@@ -59,16 +59,17 @@
   ["Tow Truck Company",559],
   ["Tow Truck Driver",2466],
   ["Tow Truck Exemption",56]
-        ]);
+        ])
         
-        var options = {
-          chart: {
-            title: 'NYC Legally Operated Businesses',
-            subtitle: 'Grouped by Industry',
-          }
-        };
+	
 
-        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+	var options = {
+		chart : {
+			title : 'NYC Legally Operated Businesses',
+			subtitle : 'Grouped by Industry',
+		}
+	};
 
-        chart.draw(data, options);
-      }
+	var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+	chart.draw(data, options);
+	}//end of drawchart function
